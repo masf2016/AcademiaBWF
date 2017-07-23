@@ -12,3 +12,6 @@ label{	display: block;}
 #ajustar_tela{	font-family: sans-serif;color: white;background-color: black;border:1px solid black;position: relative;	width: 300px;text-align: center;padding: 30px; top: 20%;margin-top:10%;}
 
 .bradius{	border-radius:6px;	-webkit-border-radius: 6px;	-moz-border radius: 6px;}
+
+div#footer{		
+	position: fixed;border: solid;text-align: center;	font-size:10px; bottom: 0;	width: 80%;	height:20%;		border-color: black;	background: #000;	color: #fff;}

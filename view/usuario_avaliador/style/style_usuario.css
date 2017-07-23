@@ -9,13 +9,13 @@ body{background-color: black; padding: 2%;	}
 
 #espaço{background-color: black;width:50px;	height:50px;}
 
-#Adminstrador{background-color: yellow; width:300px; height:100px;margin:40px;display: block;margin-top:100px;float:left;font-family: sans-serif;	font-size: 20px;text-align: center;}
+#Adminstrador{background-color: yellow; width:300px; height:100px;margin:40px;display: block;margin-top:100px;float:left;font-family: sans-serif;	font-size: 15px;text-align: center;}
 
-#Secretario{background-color: green; width:300px; height:100px;margin:40px;display: block;float:left; margin-top:100px;font-family: sans-serif;	font-size: 20px;	text-align: center;}
+#Secretario{background-color: green; width:300px; height:100px;margin:40px;display: block;float:left; margin-top:100px;font-family: sans-serif;	font-size: 15px;	text-align: center;}
 
-#Aluno{ background-color: orange; width:300px; height:100px;margin:40px;display: block;float:left;margin-top:100px;font-family: sans-serif;	font-size: 20px;	text-align: center;}
+#Aluno{ background-color: orange; width:300px; height:100px;margin:40px;display: block;float:left;margin-top:100px;font-family: sans-serif;	font-size: 15px;	text-align: center;}
 
-#Professor {background-color: blue; width:300px; height:100px;margin:40px;display: block;clear: both; float:left;font-family: sans-serif;	font-size: 20px;	text-align: center;}
+#Professor {background-color: white; width:300px; height:100px;margin:40px;display: block;clear: both; float:left;font-family: sans-serif;	font-size: 15px;	text-align: center;}
 
-#AvaliadorFisico {background-color: white; width:300px; height:100px;margin:40px;display: block;float:left;font-family: sans-serif;	font-size: 18px;	text-align: center;}
+#AvaliadorFisico {background-color: white; width:300px; height:100px;margin:40px;display: block;float:left;font-family: sans-serif;	font-size: 15px;	text-align: center;}
 

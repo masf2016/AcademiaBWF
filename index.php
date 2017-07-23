@@ -1,8 +1,15 @@
 <?php
+session_start ();
+
+$nome = $_SESSION ['sessao_nome_usuario'];
+$nivel = $_SESSION ['sessao_nivel_usuario'];
+
 if (! $_SESSION ['sessao_cod_usuario']) {
+
 	require ('util/funcoes.php');
 
-	direciona ('view/login.php');
+	direciona ( 'view/login_form.php' );
+
 	exit ();
 } else {
 	?>
@@ -21,35 +28,21 @@ if (! $_SESSION ['sessao_cod_usuario']) {
 
 ?>
 
-
     <?php
-    
-				require ('../util/conecta.php');
-				require ('../util/funcoes.php');
 				
-				$tabela = $_REQUEST ['tabela'];
+				require ('./util/conecta.php');
+			//	require ('./util/funcoes.php');
+
 				
-				$acao = $_REQUEST ['acao'];
+				echo "nome = $nome e nivel  = $nivel ";
 				
-				echo "tabela = $tabela e acao = $acao ";
+				if($nivel == "ADM" || $nivel == "SECRETARIO" || $nivel == "ALUNO")
+				{
+					require ('view/usuario.php');
+				}
 				
-				if ($tabela == "cidade")
-					
-					// require('cidade_lista.php');
-					require ('cidade_acao.php');
-				
-				else if ($tabela == "categoria")
-					require ('categoria_acao.php');
-				
-				else if ($tabela == "usuario")
-					require ('usuario_acao.php');
-				
-				else if ($tabela == "fornecedor")
-					require ('fornecedor_acao.php');
-				
-				else
-					require ('principal.php');
-				
+				//$conn = new Conexao();
 				?>
+				
 				</body>
 </html>

@@ -1,28 +1,15 @@
-﻿<?php
+﻿
 
 
-function alerta($mensagem)
-{
-
-echo '<script>alert("'.$mensagem.'");</script>';
-
+<?php
+function alerta($mensagem) {
+	echo '<script>alert("' . $mensagem . '");</script>';
 }
-
-function voltar()
-{
-
-echo "<script>history.back();</script>";
-	
+function voltar() {
+	echo "<script>history.back();</script>";
 }
-
-function direciona($para_url)
-{
-
-echo '<script>window.location="'.$para_url.'"</script>';
-
+function direciona($para_url) {
+	echo '<script>window.location="' . $para_url . '"</script>';
 }
-
-
-
 
 ?>

@@ -6,6 +6,7 @@ img{  width:350px;	height:150px;position:absolute;	top:10%;left:40%;margin-top:-
 body{background-color: black; padding: 2%;	}
 
 	
+#saudacao{float:right;margin-top:100px;font-family: sans-serif;	font-size: 20px;color: white;}
 
 #espaço{background-color: black;width:50px;	height:50px;}
 
