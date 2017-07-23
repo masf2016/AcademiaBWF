@@ -1,0 +1,14 @@
+
+  /*============================ CSS TELA LOGIN ================================== */
+  
+body{background-color:black; height: 500px; width:  800px; border: solid;}
+ 
+#saldações{font-family: sans-serif;	font-size: 15px;text-align: left;color: white; margin-top:10%;}
+
+#best{  width:350px;	height:150px;right: 150%; top: 50%;float:right;margin-top:10%; }
+
+label{	display: block;}
+
+#ajustar_tela{	font-family: sans-serif;color: white;background-color: black;border:1px solid black;position: relative;	width: 300px;text-align: center;padding: 30px; top: 20%;margin-top:10%;}
+
+.bradius{	border-radius:6px;	-webkit-border-radius: 6px;	-moz-border radius: 6px;}
